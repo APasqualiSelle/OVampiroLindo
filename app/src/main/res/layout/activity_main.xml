@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+
+
+
+    <TextView
+        android:id="@+id/estoriaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/T1_Estória"
+        android:textColor="@android:color/background_dark"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/botaoVermelho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="81dp"
+        android:background="#ea0814"
+        android:text="@string/T1_Resposta_Vermelha"
+        android:textColor="#ecf0f1"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/botaoAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/botaoVermelho"
+        android:layout_alignLeft="@+id/botaoVermelho"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/botaoVermelho"
+        android:layout_alignStart="@+id/botaoVermelho"
+        android:background="#3498db"
+        android:text="@string/T1_Resposta_Azul"
+        android:textColor="#ecf0f1"
+        android:textSize="15sp"
+        />
+
+
+</RelativeLayout>

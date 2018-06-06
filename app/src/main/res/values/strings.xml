@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Vampirinha Da Mamãe</string>
+    <string name="T1_Estória">O vampiro tem que ir ao hospital dos humanos?</string>
+    <string name="T1_Resposta_Azul">Sim</string>
+    <string name="T1_Resposta_Vermelha">Não</string>
+    <string name="T3_Estória">O vampiro vai ao hospital dos  vampiros.Ele vai ao hospital
+    porquê ele tinha dor e depois ele vai na casa dele!</string>
+    <string name="T3_Resposta_Azul">Não</string>
+    <string name="T3_Resposta_Vermelha">Sim</string>
+    <string name="T5_Final">O vampiro vai na casa dele!</string>
+    <string name="T6_Final">O vampiro não vai na casa dele!</string>
+</resources>
